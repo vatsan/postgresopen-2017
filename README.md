@@ -12,3 +12,48 @@ In this talk I'll demonstrate how to harness the power Python and it's ecosystem
 ### SPEAKER
 
 [Srivatsan Ramanujam](https://postgresql.us/events/schedule/pgopen2017/speaker/123-srivatsan-ramanujam/)
+
+### Setting up your environment to run the demos
+
+We encourage you to install Anaconda Python. If you haven't configured a `$HOME/.condarc` yet, we recommend you create one that looks like as shown below. If you already have a `$HOME/.condarc`, please update it suitable to reflect what is shown below.
+
+```
+vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ cat ~/.condarc
+envs_dirs:
+  - $HOME/envs
+pkgs_dirs:
+  - $HOME/pkgs
+``` 
+
+Once you have Anaconda setup, you can replicate the virtual environment used for this project like so:
+
+```
+vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ conda env create -f requirements-linux.yml 
+```
+
+This will create a virtual environment `postgresopen-2017` in your `$HOME/envs` folder. You can activate this environment by running:
+
+```
+vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ source activate postgresopen-2017
+(postgresopen-2017) vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ 
+```
+
+Start Jupyter by running the following:
+
+```
+(postgresopen-2017) vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ jupyter notebook
+[I 02:23:26.433 NotebookApp] The port 8888 is already in use, trying another port.
+[I 02:23:26.444 NotebookApp] Serving notebooks from local directory: /home/vatsan/code/postgresopen-2017
+[I 02:23:26.444 NotebookApp] 0 active kernels 
+[I 02:23:26.444 NotebookApp] The Jupyter Notebook is running at: http://localhost:8889/?token=1acb2f00465351610c26cfd3ac116cb95615a7bd28e7c931
+[I 02:23:26.444 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+```
+
+Once completed, you may de-activate your virtual environment like so:
+
+```
+(postgresopen-2017) vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ 
+stgresopen-2017) vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ source deactivate
+vatsan@vatsan-ubuntu:~/code/postgresopen-2017$
+```
+
