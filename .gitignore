@@ -1,3 +1,5 @@
+# Ignore sample files
+env.sh
 MANIFEST
 build
 dist
