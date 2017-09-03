@@ -1,4 +1,4 @@
-### [SCALABLE IN-DATABASE MACHINE LEARNING WITH PL/PYTHON](https://postgresql.us/events/schedule/pgopen2017/session/343-scalable-in-database-machine-learning-with-plpython/)
+### [Scalable in-database machine learning with PL/Python](https://postgresql.us/events/schedule/pgopen2017/session/343-scalable-in-database-machine-learning-with-plpython/)
 
 Date: 2017-09-08
 Time: 11:30 - 12:20
@@ -9,7 +9,7 @@ Enterprises who wish to build data driven machine learning applications should h
 
 In this talk I'll demonstrate how to harness the power Python and it's ecosystem of data science and machine learning libraries to build statistical models for machine learning applications, in database on Postgres. I will begin with an overview of PL/Python on Postgres and describe concepts such as User Defined Functions (UDF) and Aggregates (UDA) in detail. I will then describe data parallel and model parallel machine learning problems with real world applications in Natural Language Processing (NLP) and illustrate with examples how to leverage libraries such as numpy, scipy, scikit-learn for solving them through PL/Python.
 
-### SPEAKER
+### Speaker
 
 [Srivatsan Ramanujam](https://postgresql.us/events/schedule/pgopen2017/speaker/123-srivatsan-ramanujam/)
 
