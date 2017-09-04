@@ -38,6 +38,16 @@ vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ source activate postgresopen-2017
 (postgresopen-2017) vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ 
 ```
 
+Copy and modify `env.sh.sample` to reflect the path to where you cloned this repo and source it.
+
+```
+(postgresopen-2017) vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ cp env.sh.sample env.sh
+(postgresopen-2017) vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ cat env.sh
+vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ cat env.sh
+export PROJECT_HOME=$HOME/code/postgresopen-2017
+vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ source env.sh
+```
+
 Start Jupyter by running the following:
 
 ```
@@ -52,8 +62,7 @@ Start Jupyter by running the following:
 Once completed, you may de-activate your virtual environment like so:
 
 ```
-(postgresopen-2017) vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ 
-stgresopen-2017) vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ source deactivate
+(postgresopen-2017) vatsan@vatsan-ubuntu:~/code/postgresopen-2017$ source deactivate
 vatsan@vatsan-ubuntu:~/code/postgresopen-2017$
 ```
 
