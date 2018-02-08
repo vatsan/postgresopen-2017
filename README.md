@@ -1,5 +1,7 @@
 ### [Scalable in-database machine learning with PL/Python](https://postgresql.us/events/schedule/pgopen2017/session/343-scalable-in-database-machine-learning-with-plpython/)
 
+[![Alt text](https://img.youtube.com/vi/_f3URz9RlCY/0.jpg)](https://www.youtube.com/watch?v=_f3URz9RlCYD)
+
 Date: 2017-09-08
 Time: 11:30 - 12:20
 Room: Market Street
